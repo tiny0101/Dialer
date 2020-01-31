@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Dailing Screen</string>
+    <string name="caler_image_desc">Caler Image</string>
+    <string name="pause_call_desc">pause call</string>
+    <string name="mute_bottom_desc">mute bottom</string>
+    <string name="loud_speaker_desc">Loud Speaker</string>
+    <string name="keypad_desc">Keypad</string>
+    <string name="add_call_desc">add call</string>
+
+    <!--Call State-->
+    <string name="status_call_disconnected">Call ended</string>
+    <string name="status_call_incoming">Is Calling</string>
+    <string name="status_call_active">Call in progress</string>
+    <string name="status_call_dialing">Dialing…</string>
+    <string name="status_call_holding">Call On Hold</string>
+
+    <!-- Dialpad View -->
+    <string name="dialpad_0_number">0</string>
+    <string name="dialpad_1_number">1</string>
+    <string name="dialpad_2_number">2</string>
+    <string name="dialpad_3_number">3</string>
+    <string name="dialpad_4_number">4</string>
+    <string name="dialpad_5_number">5</string>
+    <string name="dialpad_6_number">6</string>
+    <string name="dialpad_7_number">7</string>
+    <string name="dialpad_8_number">8</string>
+    <string name="dialpad_9_number">9</string>
+    <string name="dialpad_star_number">*</string>
+    <string name="dialpad_pound_number">#</string>
+
+    <string name="dialpad_0_letters">+</string>
+    <string name="dialpad_1_letters">Voicmail</string>
+    <string name="dialpad_2_letters">ABC</string>
+    <string name="dialpad_3_letters">DEF</string>
+    <string name="dialpad_4_letters">GHI</string>
+    <string name="dialpad_5_letters">JKL</string>
+    <string name="dialpad_6_letters">MNO</string>
+    <string name="dialpad_7_letters">PQRS</string>
+    <string name="dialpad_8_letters">TUV</string>
+    <string name="dialpad_9_letters">WXYZ</string>
+    <string name="dialpad_star_letters"></string>
+    <string name="dialpad_pound_letters"></string>
+    <string name="back_button_desc">back button</string>
+    <string name="call_button_desc">call button</string>
+    
+    <string name="channel_name">channel1</string>
+    <string name="channel_description">channel description</string>
+
+    <string name="main_text_activity_messaging_main">
+        This Activity would handle the messaging app\'s functionality for a chat(s).
+        \n\nThe notification type for this example was the Messaging Style!
+    </string>
+</resources>

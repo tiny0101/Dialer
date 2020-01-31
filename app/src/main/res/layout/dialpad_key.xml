@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- A layout representing a single key in the dialpad -->
+<com.gidtech.dailingscreen.customView.DialpadKeyButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/DialpadKey">
+
+    <LinearLayout style="@style/DialpadKeyInnerLayout">
+
+        <TextView
+            android:id="@+id/dialpad_key_number"
+            style="@style/DialpadKeyNumber"
+            tools:text="n" />
+
+        <TextView
+            android:id="@+id/dialpad_key_letters"
+            style="@style/DialpadKeyLetters"
+            tools:text="number" />
+
+    </LinearLayout>
+
+</com.gidtech.dailingscreen.customView.DialpadKeyButton>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DailingActivity"
+    android:background="@drawable/gradient_background"
+    android:fitsSystemWindows="true">
+
+    <!-- OnGoingCall  -->
+    <include layout="@layout/on_going" />
+
+    <!-- Reject Call -->
+<!--    <include-->
+<!--        android:id="@+id/overlay_reject_call_options"-->
+<!--        layout="@layout/reject_call"-->
+<!--        tools:visibility="gone" />-->
+
+<!--    &lt;!&ndash; Answer Call &ndash;&gt;-->
+<!--    <include-->
+<!--        android:id="@+id/overlay_answer_call_options"-->
+<!--        layout="@layout/overlay_answer_call_options"-->
+<!--        tools:visibility="gone" />-->
+
+<!--    &lt;!&ndash; Action Timer Overlay &ndash;&gt;-->
+<!--    <include-->
+<!--        android:id="@+id/overlay_action_timer"-->
+<!--        layout="@layout/action_timer"-->
+<!--        tools:visibility="gone" />-->
+
+
+    <!-- Dialer Fragment -->
+<!--    <FrameLayout-->
+<!--        android:id="@+id/dialer_fragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="?attr/colorPrimary"-->
+<!--        app:behavior_hideable="true"-->
+<!--        app:behavior_peekHeight="150dp"-->
+<!--        app:layout_anchorGravity="bottom"-->
+<!--        app:layout_behavior="@string/bottom_sheet_behavior"-->
+<!--        tools:layout="@layout/dialpad_fragment" />-->
+
+
+    <include
+        android:id="@+id/dialer_fragment"
+        layout="@layout/dialpad_fragment" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
